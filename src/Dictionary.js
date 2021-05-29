@@ -9,12 +9,12 @@ export default function Dictionary() {
     alert(`Searching for ${keyword}`);
   }
   function handleResponse(response) {
-    console.log(response.data);
+    console.log(response.data[0]);
   }
 
   function handleKeywordChange(event) {
     setKeyword(event.target.value);
-    alert(`Searching for the ${keyword}`);
+    // documentation https://dictionaryapi.dev/
     let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en_US/${keyword}`;
     axios.get(apiUrl).then(handleResponse);
   }
