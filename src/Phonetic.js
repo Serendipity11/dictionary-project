@@ -2,6 +2,7 @@ import React from "react";
 
 export default function Phonetic(props) {
   console.log(props.phonetic);
+
   function handleClickAudio(event) {
     event.preventDefault();
     let audio = document.getElementById("audio");
