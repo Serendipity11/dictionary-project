@@ -1,0 +1,24 @@
+.Phonetic {
+  /* height: 60px;
+  margin-bottom: 2rem; */
+  margin: 20px 10px;
+}
+.Phonetic a.icons {
+  border: none;
+  text-decoration: none;
+  padding: 8px 15px;
+  font-size: 40px;
+  margin-right: 10px;
+}
+
+.Phonetic .text {
+  opacity: 0.7;
+  font-weight: bold;
+  font-size: 16px;
+  /* margin-bottom: 2rem; */
+}
+
+h2 {
+  /* margin-top: 0; */
+  font-size: 10px;
+}

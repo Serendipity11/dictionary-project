@@ -34,8 +34,13 @@ export default function Dictionary(props) {
     return (
       <div className="Dictionary">
         <section>
+          <h1>Search anything in the world</h1>
           <form onSubmit={handleSubmit}>
-            <input type="search text" onChange={handleKeywordChange}></input>
+            <input
+              type="search text"
+              onChange={handleKeywordChange}
+              defaultValue={props.defaultKeyword}
+            ></input>
           </form>
           <div className="hint">
             suggested words: sunset, wine, yoga, plant...
