@@ -20,9 +20,10 @@ export default function Phonetic(props) {
       <audio preload="auto" id="audio">
         <source src={props.phonetic.audio}></source>
       </audio>
-      <a href="/" rel="norefferer" className="icons" onClick={handleClickAudio}>
+      <i className="fas fa-volume-up icons" onClick={handleClickAudio}></i>{" "}
+      {/* <a href="/" rel="norefferer" className="icons" onClick={handleClickAudio}>
         🔉
-      </a>
+      </a> */}
       <br />
       <span className="text">{props.phonetic.text}</span>
     </div>
