@@ -5,8 +5,11 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <header className="App-header"></header>
-        <h1 className="text-left">Dictionary</h1>
+        <header className="App-header ">
+          <div>
+            <h1 className="text-left ">Dictionary</h1>
+          </div>
+        </header>
         <Dictionary defaultKeyword="world" />
         <footer className="text-center">
           <a
