@@ -7,10 +7,11 @@
   line-height: 1;
 }
 .Synonyms li {
-  font-size: 12px;
+  font-size: 14px;
   display: inline-block;
   padding-right: 10px;
-  line-height: 1;
+  line-height: 1.5;
   /* color: #fbfbfb; */
-  color: #2b3866;
+  color: #6aa1c5;
+  margin-bottom: 10px;
 }

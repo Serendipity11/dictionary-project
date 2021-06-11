@@ -17,13 +17,14 @@
 }
 
 .Dictionary input {
-  width: 80%;
+  width: 60rem;
+
   padding: 6px 4px;
   border-radius: 8px;
   color: white;
   font-size: 15px;
   /* border: 1px solid #ddd; */
-  margin-bottom: 20px;
+
   background: rgba(255, 254, 254, 29%);
   border: none;
   line-height: 2;
