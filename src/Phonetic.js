@@ -3,28 +3,20 @@ import "./Phonetic.css";
 
 export default function Phonetic(props) {
   console.log(props.phonetic);
+  console.log(props.results);
 
-  function handleClickAudio(event) {
+  function playAudio(event) {
     event.preventDefault();
-    let audio = document.getElementById("audio");
-    try {
-      audio.play();
-    } catch (err) {
-      event.target.classList.add("noAudio");
-      console.log("Error: Audio can not be played or doesnt exist");
-    }
+    let audio = new Audio(props.phonetic.audio);
+    audio.play();
   }
 
   return (
     <div className="Phonetic">
-      <audio preload="auto" id="audio">
-        <source src={props.phonetic.audio}></source>
+      <audio id="audio">
+        <source src={props.results.phonetics[0].audio}></source>
       </audio>
-      <i className="fas fa-volume-up icons" onClick={handleClickAudio}></i>{" "}
-      {/* <a href="/" rel="norefferer" className="icons" onClick={handleClickAudio}>
-        🔉
-      </a> */}
-      <br />
+      <i className="fas fa-volume-up icons" onClick={playAudio}></i> <br />
       <span className="text">{props.phonetic.text}</span>
     </div>
   );
