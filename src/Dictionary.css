@@ -3,10 +3,11 @@
 }
 
 .Dictionary section {
-  background: rgba(255, 254, 254, 29%);
-  /* background-color: #567cee; */
+  /* background: rgba(255, 254, 254, 29%); */
+  background-color: #151515;
   padding: 30px;
-  border-radius: 6px;
+  border-radius: 10px;
+  border: 8px solid #000000;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 10%);
   margin: 20px 0;
   color: white;
@@ -24,8 +25,8 @@
   color: white;
   font-size: 15px;
   /* border: 1px solid #ddd; */
-
-  background: rgba(255, 254, 254, 29%);
+  /* background: rgba(255, 254, 254, 29%); */
+  background: #303030;
   border: none;
   line-height: 2;
 }
