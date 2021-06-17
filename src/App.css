@@ -3,20 +3,21 @@
   margin: 0 auto;
 }
 
-.App-footer {
+.App footer {
   text-align: center;
-  margin: 30px auto;
+  margin: 10px auto;
 }
 
 .App h1 {
   text-align: center;
   font-size: 60px;
-  color: #252525;
+  color: white;
+  margin-top: 50px;
 }
 
 body {
-  /* background-image: url(https://images.unsplash.com/photo-1614730321146-b6fa6a46bcb4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1267&q=80); */
-  /* background-color: #1a1a1a; */
+  background-image: url(https://images.unsplash.com/photo-1614730321146-b6fa6a46bcb4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1267&q=80);
+  /* background-color: #d5d2e4; */
   /* background-color: #ddbea9; */
   background-repeat: no-repeat;
   background-size: cover;
@@ -25,11 +26,7 @@ body {
   height: auto;
 }
 
-body {
-  margin: 0;
-  font-family: system-ui, sans-serif;
-}
-.wave-container.header-wave {
+/* .wave-container.header-wave {
   position: relative;
   background: #252525;
   color: rgb(70, 109, 150) !important;
@@ -56,4 +53,4 @@ body {
   display: block;
   transform-origin: bottom;
   animation: animateWave 1000ms cubic-bezier(0.23, 1, 0.32, 1) forwards;
-}
+} */
