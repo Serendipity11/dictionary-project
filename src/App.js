@@ -10,7 +10,7 @@ function App() {
             <h1 className="text-left ">Dictionary</h1>
           </div>
         </header>
-        <Dictionary defaultKeyword="world" />
+        <Dictionary defaultKeyword="word" />
         <footer className="text-center">
           <a
             href="https://github.com/Serendipity11/dictionary-project"

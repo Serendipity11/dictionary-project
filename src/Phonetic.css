@@ -1,6 +1,4 @@
 .Phonetic {
-  /* height: 60px;
-  margin-bottom: 2rem; */
   margin: 20px 10px;
 }
 .Phonetic .icons {
@@ -15,17 +13,15 @@
 }
 .Phonetic .icons:hover {
   cursor: pointer;
-  color: grey;
+  color: #fee8d6;
 }
 .Phonetic .text {
-  opacity: 0.7;
+  opacity: 0.6;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 18px;
   display: inline;
-  /* margin-bottom: 2rem; */
 }
 
 h2 {
-  /* margin-top: 0; */
   font-size: 10px;
 }
