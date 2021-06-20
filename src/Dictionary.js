@@ -54,7 +54,8 @@ export default function Dictionary(props) {
               type="search text"
               onChange={handleKeywordChange}
               // defaultValue={props.defaultKeyword}
-              defaultValue="Type a word"
+              // defaultValue="Type a word"
+              placeholder="Type a word"
             ></input>
           </form>
           {/* <div className="hint">
@@ -63,6 +64,11 @@ export default function Dictionary(props) {
         </div>
         <Results results={results} />
         <Photos photos={photos} />
+        <p>
+          “The difference between the almost right word and the right word is
+          really a large matter. ’tis the difference between the lightning bug
+          and the lightning.” ― Mark Twain
+        </p>
       </div>
     );
   } else {
