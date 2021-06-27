@@ -3,16 +3,12 @@
 }
 
 .Dictionary section {
-  /* background: rgba(255, 254, 254, 99%); */
-  /* background-color: #302f2f; */
   background-color: rgba(181, 166, 153, 0.97);
   padding: 20px;
   border-radius: 10px;
-  /* border: 8px solid #000000; */
   box-shadow: 0 10px 20px rgba(0, 0, 0, 10%);
   margin: 20px 0;
   color: #523e1e;
-  /* color: #353535; */
 }
 
 .Dictionary .search-section {
@@ -24,10 +20,7 @@
   padding: 6px 4px;
   border-radius: 8px;
   font-size: 16px;
-  /* border: 1px solid #ddd; */
-  /* background: rgba(255, 254, 254, 29%); */
   background: #54442c;
-  /* background: #353535; */
   color: #ffe8d6;
   border: none;
   line-height: 2;
@@ -56,15 +49,11 @@ h2.search-title {
 }
 
 section.Photos {
-  /* background: rgba(255, 254, 254, 29%); */
-  /* background-color: #151515; */
   background: none;
   padding: 30px;
   border-radius: 10px;
-  /* border: 8px solid #000000; */
   border: none;
   box-shadow: none;
-  /* box-shadow: 0 10px 20px rgba(0, 0, 0, 10%); */
   margin: 20px 0;
   color: white;
 }
