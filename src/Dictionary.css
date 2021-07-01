@@ -3,7 +3,8 @@
 }
 
 .Dictionary section {
-  background-color: rgba(181, 166, 153, 0.97);
+  /* background-color: rgba(181, 166, 153, 0.97); */
+  background-color: rgba(254, 232, 214, 0.97);
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 10%);
@@ -19,7 +20,7 @@
   width: 60rem;
   padding: 6px 4px;
   border-radius: 8px;
-  font-size: 16px;
+  font-size: 18px;
   background: #54442c;
   color: #ffe8d6;
   border: none;
@@ -27,7 +28,7 @@
 }
 input::placeholder {
   color: #ffe8d6;
-  opacity: 0.5;
+  font-size: 18px;
 }
 
 .Dictionary .hint {
