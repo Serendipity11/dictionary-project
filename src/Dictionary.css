@@ -3,14 +3,12 @@
 }
 
 .Dictionary section {
-  /* background-color: rgba(181, 166, 153, 0.97); */
   background-color: rgba(254, 232, 214, 0.97);
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 10%);
   margin: 20px 0;
   color: #523e1e;
-  /* color: #353535; */
 }
 
 .Dictionary .search-section {
