@@ -38,3 +38,9 @@ body {
   width: 100%;
   height: auto;
 }
+
+@media (max-width: 375px) {
+  .App h1 {
+    font-size: 70px;
+  }
+}
