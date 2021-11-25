@@ -67,6 +67,18 @@ section.Photos {
   color: #353535;
 }
 
+@media (max-width: 625px) {
+  .Dictionary input {
+    width: 45rem;
+  }
+}
+
+@media (max-width: 490px) {
+  .Dictionary input {
+    width: 35rem;
+  }
+}
+
 @media (max-width: 375px) {
   .Dictionary input {
     width: 30rem;
