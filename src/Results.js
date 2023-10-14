@@ -21,7 +21,7 @@ export default function Result(props) {
           <h2>{props.results.word}</h2>
           <div>
             <Phonetic
-              phonetic={props.results.phonetics[0]}
+              phonetic={props.results.phonetics[1]}
               results={props.results}
             />
           </div>
